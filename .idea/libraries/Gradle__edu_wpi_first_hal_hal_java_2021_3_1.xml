@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: edu.wpi.first.hal:hal-java:2021.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.hal/hal-java/2021.3.1/1dee8fa1bc836e4781c7751231316ab4a882f473/hal-java-2021.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.hal/hal-java/2021.3.1/e4971be1d9dc76c60a0d3ef25d74928618606bff/hal-java-2021.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

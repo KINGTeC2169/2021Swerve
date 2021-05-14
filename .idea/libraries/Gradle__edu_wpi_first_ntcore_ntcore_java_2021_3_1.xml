@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: edu.wpi.first.ntcore:ntcore-java:2021.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.ntcore/ntcore-java/2021.3.1/3049b72051b32ee3181b89fb139eb1333350ad69/ntcore-java-2021.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.wpi.first.ntcore/ntcore-java/2021.3.1/2c87ab0e4934f9db41f671198eab91e1cfbf24eb/ntcore-java-2021.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
