@@ -8,6 +8,7 @@
 package frc.robot;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.XboxController;
 //import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
 /**
@@ -43,16 +44,13 @@ public class Robot extends TimedRobot {
   @Override
   public void teleopInit() {
     System.out.println("TeleopInit Test");
-    Joystick leftJoy = new Joystick(0);
-    Joystick rightJoy = new Joystick(1);
   }
 
   @Override
   public void teleopPeriodic() {
-    System.out.println("TeleopPeriodic Test");
-
-
-
+    Joystick leftJoy = new Joystick(0);
+    Joystick rightJoy = new Joystick(1);
+    XboxController controller = new XboxController(2);
 
   }
 
