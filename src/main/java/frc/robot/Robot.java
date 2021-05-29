@@ -23,6 +23,10 @@ public class Robot extends TimedRobot {
    * This function is run when the robot is first started up and should be used
    * for any initialization code.
    */
+  public final Joystick joy1 = new Joystick(0);
+  public final Joystick joy2 = new Joystick(1);
+  public final XboxController controller = new XboxController(2);
+
   @Override
   public void robotInit() {
     System.out.println("robotInit function Test");
@@ -48,9 +52,7 @@ public class Robot extends TimedRobot {
 
   @Override
   public void teleopPeriodic() {
-    Joystick leftJoy = new Joystick(0);
-    Joystick rightJoy = new Joystick(1);
-    XboxController controller = new XboxController(2);
+    double left = joy1.getRawAxis(0);
 
   }
 
@@ -69,5 +71,7 @@ public class Robot extends TimedRobot {
   @Override
   public void testPeriodic() {
   }
-
+  public void JoystickDrive(){
+    System.out.println("Unimplemented method");
+  }
 }
