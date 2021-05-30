@@ -9,14 +9,14 @@ import edu.wpi.first.wpilibj.kinematics.SwerveDriveKinematics;
 import edu.wpi.first.wpilibj.kinematics.SwerveDriveOdometry;
 import edu.wpi.first.wpilibj.kinematics.SwerveModuleState;
 import edu.wpi.first.wpilibj.trajectory.TrapezoidProfile;
-import com.kauailabs.navx.frc.AHRS;
+//import com.kauailabs.navx.frc.AHRS;
 import frc.robot.RobotMap;
 
 
 public class SwerveModule {
     private static final double kWheelRadius = RobotMap.K_WHEEL_RADIUS;
     private static final int kEncoderResolution = RobotMap.K_ENCODER_RESOLUTION;
-    private final AHRS navX;
+//    private final AHRS navX;
 
     private static CANSparkMax driveMotor;
     private static CANSparkMax turnMotor;
@@ -36,7 +36,7 @@ public class SwerveModule {
     }
 
     public void setDesiredState(SwerveModuleState state){
-        final double driveOutput =
+        final double driveOutput;
     }
     /**
      * @param xSpeed speed of the drive motors in the X direction
